@@ -16,8 +16,8 @@
              break
           else :
              a[left],a[right]=a[right],a[left]
-          a[last],a[left]=a[left],a[last]
-          return left
+       a[last],a[left]=a[left],a[last]
+       return left
 
   def quickSort(wireHashMap,first,last):
       a= [k for k in wireHashMap]
